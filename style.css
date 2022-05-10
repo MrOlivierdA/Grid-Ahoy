@@ -23,7 +23,7 @@ main {
     ". . . .";
 }
 .card {
-  height: 450px;
+  min-height: 450px;
   background-color: white;
   text-align: center;
   border: 1px solid rgba(230, 239, 246, 255);
@@ -34,8 +34,11 @@ main {
   flex-direction: column;
   align-items: center;
   font-family: "Rubik", sans-serif;
+  justify-content: center;
 }
-
+.bouton {
+  justify-content: center;
+}
 .card a {
   border: 1px solid white;
   border-radius: 15px;

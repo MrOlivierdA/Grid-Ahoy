@@ -23,6 +23,7 @@ main {
     ". . . .";
 }
 .card {
+  height: 450px;
   background-color: white;
   text-align: center;
   border: 1px solid rgba(230, 239, 246, 255);
